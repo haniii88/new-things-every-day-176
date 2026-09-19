@@ -6,7 +6,7 @@ function dailyLog176() {
     { name: "Performance", score: 89 }
   ];
 
-  const totalScore = items.reduc(
+  const totalScore = items.reduce(
     (sum, item) => sum + item.score,
     0
   );
